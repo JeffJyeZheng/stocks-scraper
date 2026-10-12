@@ -1,0 +1,36 @@
+{
+  "name": "stocks-scraper",
+  "version": "1.0.0",
+  "description": "Playwright-based stock data scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "scrape": "node scripts/run-all.js",
+    "scrape:bfi82u": "node scripts/scrape-bfi82u.js",
+    "scrape:taifex-futures": "node scripts/scrape-taifex-futures.js",
+    "scrape:fmtqik": "node scripts/scrape-fmtqik.js",
+    "scrape:vixtwn": "node scripts/scrape-vixtwn.js",
+    "scrape:zbi-5min": "node scripts/scrape-zbi-5min.js",
+    "scrape:zbi-otc-5min": "node scripts/scrape-zbi-otc-5min.js",
+    "scrape:zbc-margin": "node scripts/scrape-zbc-margin.js",
+    "scrape:dxy": "node scripts/scrape-dxy.js",
+    "scrape:usdtwd": "node scripts/scrape-usdtwd.js",
+    "scrape:cboe-vix": "node scripts/scrape-cboe-vix.js",
+    "scrape:sox": "node scripts/scrape-sox.js",
+    "scrape:nvda": "node scripts/scrape-nvda.js",
+    "scrape:txf": "node scripts/scrape-txf.js",
+    "scrape:rank-change-up": "node scripts/scrape-rank-change-up.js"
+  },
+  "keywords": [
+    "playwright",
+    "scraper",
+    "stocks"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.3"
+  }
+}
