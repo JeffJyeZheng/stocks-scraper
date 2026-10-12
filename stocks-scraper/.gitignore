@@ -1,0 +1,4 @@
+node_modules/
+# 爬蟲每日輸出，屬於產生的檔案
+data/
+test-results/
